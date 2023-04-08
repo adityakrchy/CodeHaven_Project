@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios'
+import {} 
 
 const Signup = () => {
     const [email, setEmail] = useState('')
@@ -9,11 +10,7 @@ const Signup = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        console.log(email, password, confirmPassword, username);
-        const response = await axios.post('http://localhost:5000/users', {
-            email, password, confirmPassword, username
-        }).then(res=>console.log(res.data)).catch(err=>console.log(err));
-        console.log(response);
+       
     }
     return (
         <>
