@@ -1,0 +1,50 @@
+.idedesktop {
+    width: 100vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .ide-navbar {
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 1px; /* Add margin-bottom for spacing */
+  }
+  
+  .ide-breadcrumbs {
+    width: 100%;
+    height: 5vh;
+    background-color: #423073;
+    margin-bottom: 1px; /* Add margin-bottom for spacing */
+  }
+  
+  .ide-editor {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 1% 1%;
+  }
+  
+  .ide-editorNavbar {
+    width: 100%;
+    height: 5vh;
+    background-color: #51378f;
+    margin-right: 1px; /* Add margin-right for spacing */
+  }
+  
+  .ide-sidebar {
+    width: 25vw;
+    height: 100%;
+    background-color: #fff;
+
+  }
+  
+  .ide-editors {
+    max-width: calc(100% - 30vw);
+    flex-grow: 1;
+    background-color: #fff;
+
+  }
+  
