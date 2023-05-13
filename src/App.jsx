@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import ResetPassword from './components/ResetPassword';
 import Dashboard from './components/Dashboard/Dashboard';
+import OnlineIDE from './components/OnlineIDE';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
           <Route path="/accounts/signup" element={<Signup />} />
           <Route path='/resetpassword' element={<ResetPassword />} />
           <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/onlineide' element={<OnlineIDE />} />
         </Routes>
       </BrowserRouter>
     </>
